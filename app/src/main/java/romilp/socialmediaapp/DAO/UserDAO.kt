@@ -1,12 +1,15 @@
 package romilp.socialmediaapp.DAO
 
+import com.google.android.gms.tasks.Task
+import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import org.w3c.dom.Document
 import romilp.socialmediaapp.models.User
 
-class userDAO {
+class UserDAO {
 
     private val db = FirebaseFirestore.getInstance()
     private val userCollection = db.collection("users")
@@ -17,5 +20,9 @@ class userDAO {
                 userCollection.document(user.uid).set(it)
             }
         }
+    }
+
+    fun getUserById(uId:String): Task<DocumentSnapshot> {
+        return userCollection.document(uId).get()
     }
 }
