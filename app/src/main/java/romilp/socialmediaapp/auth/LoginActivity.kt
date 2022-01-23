@@ -34,8 +34,8 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun login() {
-        val email: String = binding.etEmailAddress.text.toString()
-        val password: String = binding.etPassword.text.toString()
+        val email: String = binding.etEmailAddress.text.trim().toString()
+        val password: String = binding.etPassword.text.trim().toString()
 
         if (email.isBlank() || password.isBlank()) {
             Toast.makeText(this, "Email and Password can't be blank", Toast.LENGTH_LONG).show()

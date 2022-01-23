@@ -6,11 +6,9 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import com.google.firebase.auth.FirebaseAuth
-import romilp.socialmediaapp.DAO.userDAO
 import romilp.socialmediaapp.MainActivity
 import romilp.socialmediaapp.R
 import romilp.socialmediaapp.databinding.ActivityLoginIntroBinding
-import romilp.socialmediaapp.models.User
 import java.lang.Exception
 
 class LoginIntro : AppCompatActivity() {
