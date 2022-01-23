@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Social Media App</string>
+    <string name="textLoginSubHeader">Isn\'t life is a collection with \n is no answer</string>
+    <string name="textLoginHeader">Welcome to Social Media App</string>
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="login_to_continue">Please Login to Continue using app</string>
+    <string name="stay_connected">Stay Connected</string>
+    <string name="quiz_yourself_daily">Quiz Yourself Daily</string>
+    <string name="sign_up">Sign up</string>
+</resources>

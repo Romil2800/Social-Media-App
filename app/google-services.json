@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "148348239508",
+    "project_id": "social-media-app-6b307",
+    "storage_bucket": "social-media-app-6b307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148348239508:android:10b5f4ee1aca37fffd3e81",
+        "android_client_info": {
+          "package_name": "romilp.socialmediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148348239508-3o88ufve602sohd9vjsligg2t301elj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuvAXeMzuyjf32Qz4RV86XFbCMVSB8Yps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148348239508-3o88ufve602sohd9vjsligg2t301elj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
