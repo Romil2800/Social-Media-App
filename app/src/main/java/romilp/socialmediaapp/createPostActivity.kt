@@ -3,9 +3,8 @@ package romilp.socialmediaapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import romilp.socialmediaapp.DAO.PostDAO
+import romilp.socialmediaapp.dao.PostDAO
 import romilp.socialmediaapp.databinding.ActivityCreatePostBinding
-import romilp.socialmediaapp.databinding.ActivityMainBinding
 
 class createPostActivity : AppCompatActivity() {
 

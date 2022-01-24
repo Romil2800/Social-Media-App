@@ -16,7 +16,7 @@ import androidx.databinding.DataBindingUtil
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
-import romilp.socialmediaapp.DAO.UserDAO
+import romilp.socialmediaapp.dao.UserDAO
 import romilp.socialmediaapp.MainActivity
 import romilp.socialmediaapp.databinding.ActivitySignUpBinding
 import romilp.socialmediaapp.models.User
